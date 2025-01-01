@@ -1,0 +1,29 @@
+.container{
+    border: solid black 2px;
+    height: 300px;
+    width: 100%;
+}
+.block2{
+    background-color: orange;
+    border: 5px;
+    width: 10%;
+    height: 100px;
+    position: relative; left: 10px; top: 10px;
+
+}
+.block3{
+    border: 5px;
+    position: absolute;
+    height: 100px;
+    width: 10%;
+    background-color: rgb(236, 148, 6);
+    float: right;
+    position: absolute; top: 20px; right: 20px;
+   
+}
+.block4{
+    height: 100px;
+    background-color: rgb(6,236,25);
+    position: absolute; right: 20px; left: 20px;
+    
+}

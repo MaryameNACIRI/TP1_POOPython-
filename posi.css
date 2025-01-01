@@ -1,0 +1,16 @@
+.container-a,.container-b.container-c,.container-d{}
+    display: flex;
+}
+.container-a{
+    flex-direction: column;
+}
+.container-b{
+    justify-content: space-between;
+}
+.container-c .blue-box{
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    background-color: blue;
+
+}
